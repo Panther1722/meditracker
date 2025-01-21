@@ -1,0 +1,14 @@
+[package]
+name = "meditracker"
+version = "0.1.0"
+edition = "2021"
+
+# Authors, description, and license information are optional
+authors = ["Your Name <your.email@example.com>"]
+description = "A CLI tool to manage patient and medication records."
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.1"
+
